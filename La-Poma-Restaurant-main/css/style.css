@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Uchen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Uchen&display=swap');
+/* Start Glopal rules */
+*, ::after, ::before
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Uchen', serif;
+    transition: all .5s linear;
+}
+#titlebar h1 {
+    font-size: 65px;
+    font-weight: bolder;
+    font-family: 'Times New Roman';
+    text-align: center;
+    backface-visibility:hidden;
+}
+.container
+{
+    overflow: hidden;
+    margin: auto;
+}
+/* End Glopal rules */
+                                        /* ------------------------- index Page -------------*/
+/* Start navbar Rules */
+.navbar-brand {
+    color:rgb(245, 142, 57)  !important;
+    font-size:25px;
+    font-weight:bold;
+    
+}   
+.navbar .collapse ul li .nav-link
+{
+    border: none;
+    padding:10px;
+    color:rgb(27, 27, 27);
+    font-size:18px;
+    font-family: 'Times New Roman'
+}
+.navbar .collapse ul li  a.nav-link:hover
+{
+    color: rgb(245, 142, 57) ;
+    animation-name:pulse;
+    animation-duration:.5s;
+}
+.navbar .collapse ul li .txt-light{
+    color: white;
+}
+.navbar .collapse .btn{
+    margin-left:20px;
+    background-color:rgb(245, 142, 57) ;
+    border:none;
+    color:rgb(250, 246, 246);
+    padding:10px;
+}
+.navbar .collapse .btn:hover{
+    animation-name: pulse;
+    animation-duration: .5s;
+}
+/* End navbar Rules */
+/* start carousel-inner */
+.carousel-control-prev:hover, .carousel-control-next:hover
+{
+    background-color:rgb(0, 0, 0,.3);
+}
+#carouselExampleIndicators .carousel-inner .d-block{
+    max-height:600px;
+   
+}
+
+/* end carousel-inner */
+/* start news Rules */
+#news{
+    background-color:rgb(27, 27, 27) ;
+    height:50px;
+}
+#news .container .news-content{
+    color: white;
+    padding: 15px;
+    font-size:18px;
+}
+/* end news Rules */
+/* start about Rules */
+.equal .narrow
+{
+    margin:50px 0;
+}
+.equal .narrow h1 
+{
+    color:#443b2e ;
+    font-weight: bold;
+    margin-bottom:10px;
+    font-family: 'Times New Roman';
+}
+.equal .narrow .lead
+{
+    color:rgb(27, 27, 27);
+    font-size:20px;
+    line-height: 1.8;
+}
+#about .row img
+{
+    width: 100%;
+    margin-bottom:10px;
+}
+#about .row p
+{
+    font-size:17px;
+    color:rgb(27, 27, 27);
+    padding-top:10px;
+}
+#about .row p span
+{
+    color:rgb(245, 142, 57) ;
+}
+#about .row .img
+{
+    background-image: url(../img/chef.jpg);
+    height:490px;
+    background-size: cover;
+    position: relative;
+    margin-bottom:15px;
+}
+#about .row .img p
+{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    margin:0;
+    background-color:rgba(0, 0, 0, .5);
+    color: #fff;
+    font-size:18px;
+    line-height:1.5;
+}
+#about .row .img p a 
+{
+    margin:20px;
+    background-color:rgb(245, 142, 57) ;
+    border:none;
+    color:rgb(250, 246, 246);
+    padding: 10px;
+
+}
+#about .row .img p a:hover , .navbar .collapse ul li .btn:hover
+{
+    animation-name: pulse;
+    animation-duration: .5s;
+}
+/* end about Rules */
+/* Start note Rules */
+#note
+{
+    margin-top: 5%;
+    width: 100%;
+    height: 400px;
+    background: url('../img/happy.jpg');
+    background-attachment: fixed;
+    text-align: center;
+}
+#note p
+{
+    font-size: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    margin-top:15%; 
+    padding: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+/* end note Rules */
+/* Start product Rules */
+#product .container .row img
+{
+    width: 100%;
+    margin-top:15px;
+}
+#product .container .equal.narrow.text-centre{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+#product .container .row img:hover {
+        overflow: hidden;
+        opacity: 0.4;
+        transform: scale(1.05,1.05);
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: bold;
+        font-family:'Times New Roman', Times, serif;
+    }
+#product .container .btn {
+    text-decoration: none;
+    background-color: rgb(245, 142, 57);
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+#product .container .btn:hover {
+        animation-name: pulse;
+        animation-duration: .5s;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Times New Roman';
+}
+
+/* end product Rules */
+/* start activities Rules */
+#activities .row
+{
+    padding-top:30px;
+}
+#activities .row img
+{
+    width: 100%;
+}
+#activities .row h3
+{
+    color:rgb(245, 142, 57) ;
+    padding-top:20px;
+}
+#activities .row  p
+{
+    color:rgb(27, 27, 27);
+    line-height:1.7;
+    font-size:15px;
+}
+#activities .row a.btn
+{
+    text-decoration: none;
+    background-color:rgb(245, 142, 57) ;
+    color: white;
+    padding: 6px 20px;
+}
+#activities .row a:hover
+{
+    animation-name: pulse;
+    animation-duration: .5s;
+}
+/*end activities Rules */
+/* start footer */
+#contact
+{
+    padding-top:50px;
+    color:rgb(27, 27, 27);
+    background-color:#918d8d25;
+    font-size:16px;
+    line-height:1.8;
+}
+footer h5
+{
+    color: rgb(245, 142, 57) ;
+    margin-bottom:15px;
+}
+footer .text 
+{
+    border: none;
+    width:300px;
+    height:50px;
+    padding-left:10px;
+    background-color: rgb(245, 142, 57,.1) ;
+}
+footer .submit
+{
+    margin-top:30px;
+    width:300px;
+    text-decoration: none;
+    background-color:rgb(245, 142, 57) ;
+    color: white;    
+}
+footer .submit:hover
+{
+    color: white;
+    animation-name: pulse;
+    animation-duration: .5s;
+}
+footer .social
+{
+    margin-top:20px;
+}
+footer a, footer a:hover
+{
+    color:rgb(27, 27, 27);
+    text-decoration:none;
+}
+footer .bg
+{
+    margin-top:80px;
+    background-color:rgb(27, 27, 27);
+    color: white;
+    height:70px;
+}
+footer .bg p
+{
+    font-size:15px;
+    text-align: center;
+    padding-top:20px;
+}
+/* end footer */
+/* start scroll top */
+#scroll-top
+{
+width: 38px;
+height:36px;
+text-align:center;
+position: fixed;
+right:25px;
+bottom:28px;
+border-radius:55%;
+padding:2px;
+z-index:9999;
+display:none;
+cursor: pointer;
+background-color:rgb(245, 142, 57) ;
+color: white;
+}
+#scroll-top:hover
+{
+    animation: pulse .3s linear infinite;
+}
+/* end scroll top */
+                                                  /* ------------------------- form Page -------------*/
+/* start reservation Rules  */
+#reservation .container
+{
+    padding:0 50px 0 50px;   
+}
+#reservation .container .lead{
+    font-size:16px;
+    word-spacing: 0;
+    text-align: center;
+}
+#reservation .container form input,
+#reservation .container form label 
+{
+    display: block;
+    margin-bottom:10px;
+    width:100%;
+}
+#reservation form input
+{
+    height:40px;
+    border: none;
+    padding:10px;
+    background-color:#f9f9f9;
+}
+#reservation form select{
+    width: 100%;
+    height:45px;
+    border: none;
+    padding:10px;
+    background-color:#f9f9f9;
+}
+#reservation form .btn
+{
+    margin-top:15px;
+    width:100%;
+    border: none;
+    text-decoration: none;
+    background-color:rgb(245, 142, 57) ;
+    color: white;   
+}
+#reservation form .btn:hover
+{
+    animation-name: pulse;
+    animation-duration: .5s;
+    border:none;
+}
+/* end reservation Rules */
+                                                 /* ------------------------- Menu Page -------------*/
+/*start menu Rules  */
+#menu .container .menu{
+    margin:20px;
+}
+#menu .container .row .menu h1{
+    color:rgb(245, 142, 57);
+    text-align: center;
+    font-weight: bold;
+    margin-top:15px;
+}
+#menu .container .row .menu p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+    width:90%;
+}
+#menu .container .first , #menu .container .second , #menu .container .third, #menu .container .fourth, #menu .container .fivth, #menu .container .sixth, #menu .container .seventh, #menu .container .eighth, #menu .container .ninth{
+    margin-top:80px;
+}
+#menu .container .first img , #menu .container .second img, #menu .container .third img, #menu .container .fourth img, #menu .container .fivth img, #menu .container .sixth img, #menu .container .seventh img,  #menu .container .eighth img,  #menu .container .ninth img {
+    width: 100%;
+    height:100%;
+}
+#menu .container .first img , #menu .container .third img, #menu .container .fivth img, #menu .container .seventh img,#menu .container .ninth img {
+    padding-right:15px;
+}
+#menu .container .second img, #menu .container .fourth img, #menu .container .sixth img, #menu .container .eighth img{
+    padding-left: 15px;
+}
+#menu .container .row h3{
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+#menu .container .row p{
+    text-align: left;
+}
+#menu .container .row .price{
+    text-align: right;
+}
+/*End menu Rules  */
